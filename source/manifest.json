@@ -18,6 +18,7 @@
 	"content_scripts": [
 		{
 			"matches": [
+				"*://*.panopto.eu/*",
 				"*://*.panopto.com/*"
 			],
 			"exclude_matches": [
