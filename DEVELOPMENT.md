@@ -42,3 +42,20 @@ npx xo --fix
 ```
 
 Specific lint checks can be disabled by setting options for "xo":  and "stylelint": in _`package.json`_
+
+
+## Developing extension on local computer
+
+### Firefox
+- Build and watch for any changes to files in _`source`_ folder, and the built files are in _`distribution`_ folder
+
+        npm run clean
+        npm run watch
+- Go to [about:debugging#/runtime/this-firefox](about:debugging#/runtime/this-firefox)
+- Click on the "Load Temporary Add-on..." button
+- Select the "manifest.json" file in the _`distribution`_ folder, and not the one in the project root
+- The extension should work normally
+- After making changes to files in _`source`_ folder while in `watch` mode, press the "Reload" button in about:debugging to reload the extension
+
+
+### Chrome
