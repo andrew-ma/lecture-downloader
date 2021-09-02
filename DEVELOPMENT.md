@@ -1,5 +1,9 @@
 # Development
 
+## Node and NPM versions
+- node: v14.17.5
+- npm: 6.14.14
+
 ## Install from Source Code
 Change into folder with package.json, then
 ```
