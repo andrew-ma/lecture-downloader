@@ -1,0 +1,22 @@
+#video_download_button {
+    background-color: #75aa2b;
+    border-bottom-color: rgb(94, 131, 43);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    padding: 2px 7px;
+    color: #ffffff;
+    text-shadow: rgba(95, 95, 95, 0.719) 1px 1px 0px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+
+#video_download_button:hover {
+    background-color: rgb(133, 190, 54);
+}
