@@ -1,4 +1,4 @@
-# <img src="distribution/icon.png" width="45" align="left"> Panopto Downloader
+# <img src="source/icon.png" width="45" align="left"> Panopto Downloader
 
 > Browser extension (Firefox & Chrome) that adds a download button for Panopto videos
 
