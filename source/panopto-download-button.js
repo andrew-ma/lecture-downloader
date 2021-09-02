@@ -30,12 +30,15 @@ function addDownloadButtonElement(download_url, save_filename) {
 		// Copy video filename to clipboard
 		navigator.clipboard.writeText(save_filename).then(() => {
 			console.info('Copied video filename to clipboard');
+
+			// Open video download url in new tab
+			window.open(download_url, '_blank');
 		}, error => {
 			console.error(`Failed to write clipboard: ${error}`);
-		});
 
-		// Open video download url in new tab
-		window.open(download_url, '_blank');
+			// Open video download url in new tab
+			window.open(download_url, '_blank');
+		});
 	});
 
 	const button_text = document.createTextNode(save_filename);
