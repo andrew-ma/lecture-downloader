@@ -17,6 +17,7 @@
 	},
 	"content_scripts": [
 		{
+			"all_frames": true,
 			"matches": [
 				"*://*.panopto.eu/*",
 				"*://*.panopto.com/*"
