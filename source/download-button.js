@@ -6,9 +6,9 @@ function getVideoDownloadURL() {
 		return null;
 	}
 
-	const panopto_domain = matches[1];
+	const domain = matches[1];
 	const video_guid = matches[2];
-	const video_download_url = `${panopto_domain}/Panopto/Podcast/Syndication/${video_guid}.mp4`;
+	const video_download_url = `${domain}/Panopto/Podcast/Syndication/${video_guid}.mp4`;
 	console.info(video_download_url);
 	return video_download_url;
 }
