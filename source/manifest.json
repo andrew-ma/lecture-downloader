@@ -1,13 +1,13 @@
 {
-	"name": "Panopto Downloader",
+	"name": "Video Downloader",
 	"version": "1.2.2",
 	"manifest_version": 2,
-	"description": "Adds download button for Panopto videos",
-	"homepage_url": "https://github.com/andrew-ma/panopto_downloader_extension",
+	"description": "Adds download button for videos",
+	"homepage_url": "https://github.com/andrew-ma/video-downloader",
 	"minimum_chrome_version": "74",
 	"browser_specific_settings": {
 		"gecko": {
-			"id": "panopto_downloader@andrewmatech.com",
+			"id": "video_downloader@andrewmatech.com",
 			"strict_min_version": "67.0"
 		}
 	},
@@ -28,10 +28,10 @@
 				"*://login.panopto.com/*"
 			],
 			"js": [
-				"panopto-download-button.js"
+				"download-button.js"
 			],
 			"css": [
-				"panopto-download-button.css"
+				"download-button.css"
 			]
 		}
 	]
